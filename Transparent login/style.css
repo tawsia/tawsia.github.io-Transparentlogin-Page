@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pexels-pixabay-280249.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color:black;
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+.container h1{
+    font-size: 20px;
+    /* border-bottom: 3px solid whitesmoke; */
+    color: whitesmoke;
+    margin-bottom: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    width: 100%;
+    /* border-bottom: 2px solid plum; */
+    margin: 22px 0;
+}
+.box input{
+    width: 50%;
+    outline: none;
+    border: none;
+    /* color: black; */
+    padding: 2px;
+    font-size: 10px;
+    background: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    outline: none;
+    cursor: pointer;
+    padding: 10px 35px;
+    margin: 5px 0;
+    padding: 4px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    background: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+}
